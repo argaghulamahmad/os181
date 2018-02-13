@@ -1,4 +1,0 @@
-X 1606890555 Github Account[Yes]  Project "os181"[Yes]  README.md file[Yes]
-X 1706106886 Github Account[No!]  Project "os181"[No!]  README.md file[No!]
-Z IAMANIDIOT Github Account[Yes]  Project "os181"[Yes]  README.md file[Yes]
-
