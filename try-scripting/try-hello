@@ -1,0 +1,8 @@
+VAR="hallo"
+case "$VAR" in
+	hallo) echo "Hallo too!"
+		;;
+	*)	echo "What?"
+		;;
+esac
+exit 0

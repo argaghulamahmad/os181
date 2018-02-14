@@ -1,0 +1,2 @@
+ID=VWXYZ
+echo "$ID" | cut -c1-3 | tr '[a-z]' '[A-Z]'

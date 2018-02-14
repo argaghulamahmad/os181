@@ -1,0 +1,12 @@
+echo a b c d | echo a b c d
+
+echo abcd
+
+echo a b c d & echo a b c d
+
+echo a b c d & a b c d
+
+echo ----------------
+
+echo a b c d | a b c d
+

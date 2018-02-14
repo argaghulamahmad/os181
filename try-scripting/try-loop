@@ -1,0 +1,7 @@
+string = ARGA GHULAM AHMAD
+
+for II in $string
+do
+	echo X$II
+done
+
