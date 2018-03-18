@@ -1,0 +1,8 @@
+sed -e s/"km "/"miles "/ thefile.txt
+
+sed -e s/"km "/"miles "/g thefile.txt
+
+sed -e s/km/miles/g thefile.txt
+
+sed -e s/[km]/miles/g thefile.txt
+

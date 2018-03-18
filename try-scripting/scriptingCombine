@@ -1,0 +1,25 @@
+isADigit() {
+	[[ $VARIABLE =~ $REGEX ]] || {
+	TEXT1="VARIABLE $VARIABLE is not a digit."
+	return
+	}
+	[[ ${#VARIABLE}} =~ $TEN ]] && {
+	TEXT1="VARIABLE $VARIABLE has 10 digits."
+	return
+	}	
+	TEXT1="VARIABLE $VARIABLE has no 10 digits."
+}
+
+ONE='1'
+TEN='10'
+REGEX='^[0-9]+$'
+VARIABLE='1234567892'
+HASH=`echo "$VARIABLE" | sha1sum`
+echo "$HASH"
+isADigit
+TEXT2=`echo "$HASH" | cut -c1-3`
+TEXT3=`echo "$TEXT2" | tr '[a-z]' '[A-Z]'`
+echo "$TEXT1"
+echo "$TEXT2"
+echo "$TEXT3"
+exit 0
