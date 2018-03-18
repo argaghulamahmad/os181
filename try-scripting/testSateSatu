@@ -1,0 +1,3 @@
+string0="sate satu"
+string1="sate"
+[[ $string0 =~ ^.[aiueo].[aiueo]$ ]] && echo "Yes"

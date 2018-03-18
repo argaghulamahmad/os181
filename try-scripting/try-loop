@@ -1,4 +1,4 @@
-string = ARGA GHULAM AHMAD
+string="ARGA GHULAM AHMAD"
 
 for II in $string
 do

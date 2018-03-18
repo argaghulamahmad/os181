@@ -1,0 +1,13 @@
+string0="_at 0at"
+string1="cat"
+string2="2"
+string3="c"
+[[ $string0 =~ ^[^c]at$ ]] && echo "Yes0"
+[[ $string1 =~ [^c]at ]] && echo "Yes1"
+[[ $string2 =~ [a-z0-9] ]] && echo "Yes2"
+[[ $string3 =~ [a-z0-9] ]] && echo "Yes3"
+
+
+
+
+

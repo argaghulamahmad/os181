@@ -1,0 +1,1 @@
+echo "CAT" | tr '[^c]at'
